@@ -8,12 +8,14 @@ def main(list1):
     """
     i = 0
     a,b = 0,0
+    ans = []
     while i < len(list1):
         if list1[i] == 1:
             a += 1
         else:
             b += 1
         i += 1
-    ans = [].append(a)
+    ans.append(a)
     ans.append(b)
     return ans
+print(main([1, 0, 0, 0, 1, 0, 1, 0]))
