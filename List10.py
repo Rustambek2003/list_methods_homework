@@ -6,4 +6,14 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i = 0
+    a,b = 0,0
+    while i < len(list1):
+        if list1[i] == 1:
+            a += 1
+        else:
+            b += 1
+        i += 1
+    ans = [].append(a)
+    ans.append(b)
+    return ans
