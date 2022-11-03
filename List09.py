@@ -12,5 +12,6 @@ def main(fruits):
         if fruits[i] == 'apple':
             ans.append(i)
         i += 1
-    fruits.insert(0,len(ans))
-    return fruits
+    ans.insert(0,len(ans))
+    return ans
+print(main(["apple", "banana", "apple", "pear", "apple"]))
