@@ -7,5 +7,5 @@ def main(numbers,i):
     Returns:
         list: return answer
     """
-    
-    return numbers.index(i)
+    a = numbers.index(i)
+    return numbers[a]
