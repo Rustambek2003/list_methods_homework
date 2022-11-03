@@ -10,7 +10,8 @@ def main(numbers1, numbers2):
         list: return answer
     """
     a = numbers1.pop()
-    numbers2.insert(a,0)
+    numbers2.insert(0,a)
     numbers1.extend(numbers2)
 
     return numbers1
+print(main([14,15],[19,20]))
